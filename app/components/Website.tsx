@@ -21,7 +21,7 @@ const pastries: Pastry[] = [
     image: "/images/baklava.jpg",
   },
   {
-    name: "Kalbellouz",
+    name: "kalbellouz",
     description: "Soft semolina cake soaked in syrup.",
     image: "/images/kalbellouz.jpg",
   },
