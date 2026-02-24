@@ -11,7 +11,7 @@ type Pastry = {
 
 const pastries: Pastry[] = [
   {
-    name: "Makroud",
+    name: "makroud",
     description: "Semolina pastry filled with dates and honey.",
     image: "/images/makroud.jpg",
   },
@@ -21,9 +21,9 @@ const pastries: Pastry[] = [
     image: "/images/baklava.jpg",
   },
   {
-    name: "Kalb El Louz",
+    name: "Kalbellouz",
     description: "Soft semolina cake soaked in syrup.",
-    image: "/images/kalbElLouz.jpg",
+    image: "/images/kalbellouz.jpg",
   },
 ];
 
@@ -150,13 +150,11 @@ export default function Website() {
               {selected.name}
             </h3>
 
-            <Image
-              src={selected.image}
-              alt={selected.name}
-              width={400}
-              height={300}
-              className="rounded-xl mx-auto"
-            />
+            <img
+  src={selected.image}
+  alt={selected.name}
+  className="rounded-xl mx-auto"
+/>
 
             <button
               onClick={() => setSelected(null)}
@@ -182,7 +180,7 @@ export default function Website() {
         }
 
         @keyframes float {
-          0% {
+          
             transform: translateY(0) scale(1);
           }
           50% {
